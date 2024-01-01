@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Planner</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-app">
+        <h4 class="app-heading text-center mt-5">My Budget Planner</h4>
+        <div class="cost-summary mt-4">
+          <div class="budget">
+            <p>Budget: ৳ 20000</p>
+            <button>Edit</button>
+          </div>
+          <div class="remaining">
+            <p>Remaining: ৳ 10000</p>
+          </div>
+          <div class="spent-so-far">
+            <p>Spent so far: ৳ 10000</p>
+          </div>
+        </div>
+        <h5 class="mt-4">Expenses</h5>
+        <div class="search-box mt-3 mb-4">
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="expense-item mb-2">
+          <p>Shopping</p>
+          <div class="expense-item-buttons">
+            <p>৳ 50</p>
+            <button>&times;</button>
+          </div>
+        </div>
+
+        <div class="expense-item mb-2">
+          <p>Shopping</p>
+          <div class="expense-item-buttons">
+            <p>৳ 50</p>
+            <button>&times;</button>
+          </div>
+        </div>
+
+        <div class="expense-item mb-2">
+          <p>Shopping</p>
+          <div class="expense-item-buttons">
+            <p>৳ 50</p>
+            <button>&times;</button>
+          </div>
+        </div>
+
+        <h5 class="mt-4 mb-3">Add Expense</h5>
+        <form>
+          <div class="inputs mb-3">
+            <input type="text" placeholder="Expense name" />
+            <input type="number" placeholder="Cost" min="0" />
+          </div>
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
